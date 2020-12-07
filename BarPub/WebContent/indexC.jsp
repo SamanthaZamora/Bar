@@ -54,7 +54,7 @@
 					<li><a href="#team" class="smoothScroll">Events</a></li>
 					<li><a href="#menu" class="smoothScroll">Menu</a></li>
 					<li><a href="#contact" class="smoothScroll">Contact</a></li>
-					<li><a href="#" class="smoothScroll">Reserva</a></li>
+					<li><a href="reserva.jsp" class="smoothScroll">Reserva</a></li>
                    
 				</ul>
 
