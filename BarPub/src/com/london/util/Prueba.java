@@ -26,12 +26,13 @@ public class Prueba {
 		c1.setTelefono("24785696");
 		
 		
-		/*c.insert(c1);*/
+		c.insert(c1);
 		
 		c.update(c1);
 		
 		
-		/***************** CLIENTE *******************/
+		
+		/***************** EMPLEADO *******************/
 		/*EmpleadoDAO e= new EmpleadoDAO();
 		
 		Empleado e1= new Empleado();
