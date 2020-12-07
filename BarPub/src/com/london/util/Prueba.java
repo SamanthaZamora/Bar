@@ -16,7 +16,7 @@ public class Prueba {
 		
 		c1.setApellido("daza");
 		c1.setCedula("1478526985");
-		c1.setClave("dolor");
+		c1.setClave("0102");
 		c1.setDireccion("Cll 23 jdeoj");
 		c1.setEmail("angiedaza@gmail.com");
 		c1.setNombre("angie");
