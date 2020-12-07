@@ -13,10 +13,10 @@
 </head>
 <body>
 		<div id="opcion">
-	        <h3>Seleccione una opción</h3>
-	        <a href="#" type="button"class="btn btn-primary" id="botonopciones"> CLIENTE</a> <br><br>
-	        <a href="#" type="button"class="btn btn-primary" id="botonopciones"> ADMINISTRADOR</a>
-	         <h3><a href="#">Regresar</a></h3>
+	        <h3>ESCOGE UN ROL</h3>
+	        <a href="loginC.jsp" type="button"class="btn btn-primary" id="botonopciones"> Cliente</a> <br><br>
+	        <a href="loginA.jsp" type="button"class="btn btn-primary" id="botonopciones"> Administrador</a>
+	        <h3><a href="principal.jsp">Regresar</a></h3>
 	    </div>
 	    
 		<script src="js/jquery.js"></script>
