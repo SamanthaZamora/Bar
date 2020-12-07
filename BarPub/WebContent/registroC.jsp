@@ -22,7 +22,7 @@
 		    <input class="controls" type="text" name="telefono" id="telefono" placeholder="Telefono" value="<c:out value='${Cliente.telefono}' />">
 		    <input class="controls" type="email" name="email" id="email" placeholder="Email" value="<c:out value='${Cliente.email}' />">
 		    <input class="controls" type="password" name="clave" id="clave" placeholder="Password" value="<c:out value='${Cliente.clave}' />">
-		    <p> <b>Estoy de acuerdo con</b> <a href="#">Terminos y Condiciones</a></p>
+		    <p> <b>Estoy de acuerdo con</b> Terminos y Condiciones</p>
 		    <input class="botons" type="submit" value="Registrar">
 		    <p><a href="loginC.jsp">¿Ya tengo Cuenta?</a></p> 
 		    <p><a href="opciones.jsp">Regresar</a></p>

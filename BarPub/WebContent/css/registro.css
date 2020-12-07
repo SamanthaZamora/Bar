@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +8,32 @@ body {
   background-image: url("../images/bar.jpg")
 }
 
+/*Se agrego un nuevo estilo para el boton*/
+#botonopciones{
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  background: #D2C89B;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
 .form-register {
   width: 400px;
   background: #fff;
@@ -50,6 +75,14 @@ body {
 .form-register a {
   color: #010101;
   text-decoration: none;
+}
+/*NUEVO ESTILO PARA ANCLAS*/
+.parrafos a{
+  color: #010101;
+  text-decoration: none;
+  font-family: 'calibri';
+   font-size: 18px;
+
 }
 
 .form-register a:hover {

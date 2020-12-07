@@ -36,7 +36,7 @@
 
 	<!-- MENU -->
 	<section class="navbar custom-navbar navbar-fixed-top"
-		role="navigation">
+		role="navigation" style="background-color: #863636">
 		<div class="container">
 
 			<div class="navbar-header">
@@ -54,12 +54,12 @@
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav navbar-nav-first">
 					<li><a href="principal.jsp" class="smoothScroll">Home</a></li>
-					<li><a href="#about" class="smoothScroll">About</a></li>
-					<li><a href="#team" class="smoothScroll">Events</a></li>
-					<li><a href="#menu" class="smoothScroll">Menu</a></li>
-					<li><a href="#contact" class="smoothScroll">Contact</a></li>
-					<li><a href="html/clientes.jsp" class="smoothScroll">Clientes</a></li>
-                    <li><a href="html/empleados.jsp" class="smoothScroll">Empleados</a></li>
+					<li><a href="indexAdm.jsp#about" class="smoothScroll">About</a></li>
+					<li><a href="indexAdm.jsp#team" class="smoothScroll">Events</a></li>
+					<li><a href="indexAdm.jsp#menu" class="smoothScroll">Menu</a></li>
+					<li><a href="indexAdm.jsp#contact" class="smoothScroll">Contact</a></li>
+					<li><a href="clientes.jsp" class="smoothScroll">Clientes</a></li>
+                    <li><a href="empleados.jsp" class="smoothScroll">Empleados</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
@@ -74,12 +74,10 @@
 		</div>
 	</section>
 
-
+	<br><br><br><br><br><br>
      <div class="row">
-          <!-- <div class="alert alert-success" *ngIf='message'>{{message}}</div> -->
-
-          <div class="container">
-               <h3 class="text-center">List de Empleados</h3>
+         <div class="container">
+               <h3 class="text-center">Lista de Empleados</h3>
                <hr>
                <div class="container text-left">
 					<a href="#" type="submit" class="section-btn" role="button" aria-pressed="true">Nuevo Empleado </a>
@@ -104,19 +102,19 @@
                     <tbody>
                          <c:forEach var="user" items="${listUser}">
                               <tr>
-                                   <td><c:out value="${user.idEmpleado}" /></td>
-                                   <td><c:out value="${user.nombre}" /></td>
-                                   <td><c:out value="${user.apellido}" /></td>
-                                   <td><c:out value="${user.direccion}" /></td>
-                                   <td><c:out value="${user.telefono}" /></td>
-                                   <td><c:out value="${user.fechaNacimiento}" /></td>
-                                   <td><c:out value="${user.correo}" /></td>
-                                   <td><c:out value="${user.cedula}" /></td>
-                                   <td><c:out value="${user.cargo}" /></td>
+                                   <td><c:out value="${Empleado.idEmpleado}" /></td>
+                                   <td><c:out value="${Empleado.nombre}" /></td>
+                                   <td><c:out value="${Empleado.apellido}" /></td>
+                                   <td><c:out value="${Empleado.direccion}" /></td>
+                                   <td><c:out value="${Empleado.telefono}" /></td>
+                                   <td><c:out value="${Empleado.fechaNacimiento}" /></td>
+                                   <td><c:out value="${Empleado.email}" /></td>
+                                   <td><c:out value="${Empleado.cedula}" /></td>
+                                   <td><c:out value="${Empleado.cargo}" /></td>
 
-                                   <td><a href="edit?id=<c:out value='${user.id}' />">Edit</a>
+                                   <td><a href="edit?id=<c:out value='${Empleado.idEmpleado}' />">Edit</a>
                                         &nbsp;&nbsp;&nbsp;&nbsp; <a
-                                        href="delete?id=<c:out value='${user.id}' />">Delete</a></td>
+                                        href="delete?id=<c:out value='${Empleado.idEmpleado}' />">Delete</a></td>
                               </tr>
                          </c:forEach>
                     </tbody>

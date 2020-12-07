@@ -10,13 +10,18 @@
 	<title>Opciones</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/registro.css">
+	
+
 </head>
 <body>
 		<div id="opcion">
 	        <h3>ESCOGE UN ROL</h3>
 	        <a href="loginC.jsp" type="button"class="btn btn-primary" id="botonopciones"> Cliente</a> <br><br>
-	        <a href="loginA.jsp" type="button"class="btn btn-primary" id="botonopciones"> Administrador</a>
-	        <h3><a href="principal.jsp">Regresar</a></h3>
+	        <a href="loginA.jsp" type="button"class="btn btn-primary" id="botonopciones"> Administrador</a> <br>
+	         <p class="parrafos"><a href="principal.jsp">Regresar</a></p>
+
+
+	        <!-- <h3><a href="principal.jsp">Regresar</a></h3> -->
 	    </div>
 	    
 		<script src="js/jquery.js"></script>

@@ -36,7 +36,7 @@
 
 	<!-- MENU -->
 	<section class="navbar custom-navbar navbar-fixed-top"
-		role="navigation">
+		role="navigation" style="background-color: #863636">
 		<div class="container">
 
 			<div class="navbar-header">
@@ -54,12 +54,12 @@
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav navbar-nav-first">
 					<li><a href="principal.jsp" class="smoothScroll">Home</a></li>
-					<li><a href="#about" class="smoothScroll">About</a></li>
-					<li><a href="#team" class="smoothScroll">Events</a></li>
-					<li><a href="#menu" class="smoothScroll">Menu</a></li>
-					<li><a href="#contact" class="smoothScroll">Contact</a></li>
-					<li><a href="html/clientes.jsp" class="smoothScroll">Clientes</a></li>
-                    <li><a href="html/empleados.jsp" class="smoothScroll">Empleados</a></li>
+					<li><a href="indexAdm.jsp#about" class="smoothScroll">About</a></li>
+					<li><a href="indexAdm.jsp#team" class="smoothScroll">Events</a></li>
+					<li><a href="indexAdm.jsp#menu" class="smoothScroll">Menu</a></li>
+					<li><a href="indexAdm.jsp#contact" class="smoothScroll">Contact</a></li>
+					<li><a href="clientes.jsp" class="smoothScroll">Clientes</a></li>
+                    <li><a href="empleados.jsp" class="smoothScroll">Empleados</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
@@ -74,7 +74,7 @@
 		</div>
 	</section>
      
-
+     <br><br><br><br><br><br>
      <div class="row">
           <!-- <div class="alert alert-success" *ngIf='message'>{{message}}</div> -->
 

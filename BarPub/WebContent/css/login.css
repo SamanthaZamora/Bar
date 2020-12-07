@@ -151,7 +151,7 @@ button {
 }
 
 
-/*---------------------------------------------*/
+/*--------------------------------------------*/
 .wrap-input100 {
   position: relative;
   width: 100%;
@@ -205,6 +205,15 @@ button {
   background: #333333;
 }
 
+/*NUEVO REGISTRO PARA ANCLA*/
+.parrafos a{
+  color: #010101;
+  text-decoration: none;
+  font-family: 'calibri';
+   font-size: 18px;
+
+}
+
 
 
 /*------------------------------------------------------------------
@@ -245,6 +254,3 @@ button {
     padding: 100px 15px 33px 15px;
   }
 }
-
-
-

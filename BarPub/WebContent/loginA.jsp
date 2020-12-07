@@ -64,7 +64,7 @@
 					<br>
 					<div class="text-center p-t-136">
 						<center>
-							<p><a href="opciones.jsp">Regresar</a></p>
+							<p class="parrafos"><a href="opciones.jsp">Regresar</a></p>
 						</center>
 					</div>
 				</form>
