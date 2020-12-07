@@ -43,30 +43,32 @@
 
 					<div class="wrap-input100 validate-input"
 						data-validate="Valid email is required: ex@abc.xyz">
-						<input class="input100" type="text" name="email" value="<c:out value='${Cliente.email}' />"
-							placeholder="Email"> <span class="focus-input100"></span>
-						<span class="symbol-input100"> </span>
+						<input class="input100" type="text" name="email"
+							value="<c:out value='${Cliente.email}' />" placeholder="Email">
+						<span class="focus-input100"></span> <span class="symbol-input100">
+						</span>
 					</div>
 
 					<div class="wrap-input100 validate-input"
 						data-validate="Password is required">
-						<input class="input100" type="password" name="clave" value="<c:out value='${Cliente.clave}' />"
-							placeholder="Password"> <span class="focus-input100"></span>
-						<span class="symbol-input100"> </span>
+						<input class="input100" type="password" name="clave"
+							value="<c:out value='${Cliente.clave}' />" placeholder="Password">
+						<span class="focus-input100"></span> <span class="symbol-input100">
+						</span>
 					</div>
 
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn">Login</button>
-						 </div>
+					</div>
 
-					<br>
-					
-					<br>
+					<br> <br>
 					<div class="text-center p-t-136">
 						<center>
-							<a class="txt2" href="registroC.jsp"> Create your Account</a>
-							<br><br>
-							<p><a href="opciones.jsp">Regresar</a></p>
+							<a class="txt2" href="registroC.jsp"> Create your Account</a> <br>
+							<br>
+							<p>
+								<a href="opciones.jsp">Regresar</a>
+							</p>
 						</center>
 					</div>
 				</form>
