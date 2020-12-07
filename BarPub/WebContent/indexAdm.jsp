@@ -54,8 +54,8 @@
 					<li><a href="#team" class="smoothScroll">Events</a></li>
 					<li><a href="#menu" class="smoothScroll">Menu</a></li>
 					<li><a href="#contact" class="smoothScroll">Contact</a></li>
-					<li><a href="html/clientes.jsp" class="smoothScroll">Clientes</a></li>
-                    <li><a href="html/empleados.jsp" class="smoothScroll">Empleados</a></li>
+					<li><a href="clientes.jsp" class="smoothScroll">Clientes</a></li>
+                    <li><a href="empleados.jsp" class="smoothScroll">Empleados</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">

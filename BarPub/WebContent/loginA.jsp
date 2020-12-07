@@ -56,7 +56,7 @@
 					</div>
 
 					<div class="container-login100-form-btn">
-						<button sclass="login100-form-btn">Login</button>
+						<button class="login100-form-btn">Login</button>
 						 </div>
 
 					<br>

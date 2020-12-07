@@ -21,7 +21,8 @@
 			class="controls" type="time" name="hora" value="05:00:00" step="1">
 
 		<div>
-			<label for="inputState">Selecciona </label> <select id="inputState"
+			<label for="inputState">Selecciona </label> 
+			<select id="inputState"
 				class="controls">
 				<option selected class="controls">Mesa 1</option>
 				<option>Mesa 2</option>
@@ -33,15 +34,15 @@
 				<option>Mesa 8</option>
 				<option>Mesa 9</option>
 				<option>Mesa 10</option>
-
 			</select>
 		</div>
 
 		<input class="botons" type="submit" value="Enviar"> 
-		
-		 <a href="indexC.jsp"  type="sublit"> <input class="botons" type="button" value="Cancelar" ></a>
-
+		<a href="indexC.jsp"  type="sublit"> <input class="botons" type="button" value="Cancelar" ></a>
 	</form>
+	
+	 <br><br>
+	 
 	<script src="js/jquery.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/bootstrap.min.js"></script>

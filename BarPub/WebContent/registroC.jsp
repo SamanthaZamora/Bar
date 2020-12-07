@@ -25,8 +25,10 @@
 		    <p> <b>Estoy de acuerdo con</b> <a href="#">Terminos y Condiciones</a></p>
 		    <input class="botons" type="submit" value="Registrar">
 		    <p><a href="loginC.jsp">¿Ya tengo Cuenta?</a></p> 
-		    <p><a href="principal.jsp">Regresar</a></p>
+		    <p><a href="opciones.jsp">Regresar</a></p>
 	  </form>
+	  
+	  <br><br>
 		<script src="js/jquery.js"></script>
 		<script src="js/main.js"></script>
 		<script src="sjs/bootstrap.min.js"></script>
