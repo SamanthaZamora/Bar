@@ -59,7 +59,7 @@
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
-					<a href="#opciones.jsp" type="submit" class="section-btn" role="button" aria-pressed="true">Login </a>
+					<a href="opciones.jsp" type="submit" class="section-btn" role="button" aria-pressed="true">Login </a>
 				</ul>
 			</div>
 
