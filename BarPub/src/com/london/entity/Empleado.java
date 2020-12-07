@@ -1,6 +1,7 @@
 package com.london.entity;
 
 import java.io.Serializable;
+
 import javax.persistence.*;
 
 import lombok.AllArgsConstructor;
