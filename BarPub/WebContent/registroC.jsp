@@ -13,7 +13,7 @@
 </head>
 <body>
 	<form class="form-register" action="${pageContext.request.contextPath}/ClienteServlet?action=/insert" method="post">
-		    <h4>Formulario Registro</h4>
+		    <h4>FORMULARIO DE REGISTRO</h4>
 		    
 		    <input class="controls" type="text" name="nombre" id="nombre" placeholder=" Nombre" value="<c:out value='${Cliente.nombre}' />">
 		    <input class="controls" type="text" name="apellido" id="apellido" placeholder=" Apellido" value="<c:out value='${Cliente.apellido}' />"> 

@@ -64,7 +64,9 @@
 					<br>
 					<div class="text-center p-t-136">
 						<center>
-							<a class="txt2" href="#"> Create your Account</a>
+							<a class="txt2" href="registroC.jsp"> Create your Account</a>
+							<br><br>
+							<p><a href="opciones.jsp">Regresar</a></p>
 						</center>
 					</div>
 				</form>
