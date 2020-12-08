@@ -37,20 +37,20 @@
 				</div>
 
 				<form class="login100-form validate-form"
-					action="${pageContext.request.contextPath}/ClienteServlet?action=/login"
+					action="${pageContext.request.contextPath}/AdministradorServlet?action=/login"
 					method="post">
 					<span class="login100-form-title"> LOGIN ADMINISTRADOR</span>
 
 					<div class="wrap-input100 validate-input"
 						data-validate="Valid email is required: ex@abc.xyz">
-						<input class="input100" type="text" name="email" value="<c:out value='${Cliente.email}' />"
+						<input class="input100" type="text" name="email" value="<c:out value='${Empleado.email}' />"
 							placeholder="Email"> <span class="focus-input100"></span>
 						<span class="symbol-input100"> </span>
 					</div>
 
 					<div class="wrap-input100 validate-input"
 						data-validate="Password is required">
-						<input class="input100" type="password" name="clave" value="<c:out value='${Cliente.clave}' />"
+						<input class="input100" type="password" name="clave" value="<c:out value='${Administrador.clave}' />"
 							placeholder="Password"> <span class="focus-input100"></span>
 						<span class="symbol-input100"> </span>
 					</div>
